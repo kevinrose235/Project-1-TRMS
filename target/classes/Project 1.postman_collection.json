@@ -1,0 +1,877 @@
+{
+	"info": {
+		"_postman_id": "0253da00-1f49-4cd1-be64-539497ec30ad",
+		"name": "Project 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "preDemo",
+			"item": [
+				{
+					"name": "add employee1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"1\",\r\n    \"name\":\"ITHead\",\r\n    \"department\":\"IT\",\r\n    \"dirsupID\":\"\",\r\n    \"tuitionReimbursed\":\"0.00\",\r\n    \"tuitionPending\":\"0.00\",\r\n    \"position\":\"DEP_HEAD\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add employee2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"2\",\r\n    \"name\":\"pooritemp\",\r\n    \"department\":\"IT\",\r\n    \"dirsupID\":\"3\",\r\n    \"tuitionReimbursed\":\"891.55\",\r\n    \"tuitionPending\":\"0.00\",\r\n    \"position\":\"EMPLOYEE\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add employee3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"3\",\r\n    \"name\":\"itsup\",\r\n    \"department\":\"IT\",\r\n    \"dirsupID\":\"1\",\r\n    \"tuitionReimbursed\":\"500.00\",\r\n    \"tuitionPending\":\"20.00\",\r\n    \"position\":\"MANAGER\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add employee4",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"4\",\r\n    \"name\":\"richitemp\",\r\n    \"department\":\"IT\",\r\n    \"dirsupID\":\"3\",\r\n    \"tuitionReimbursed\":\"0.00\",\r\n    \"tuitionPending\":\"0.00\",\r\n    \"position\":\"EMPLOYEE\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add employee5",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"5\",\r\n    \"name\":\"itbenco\",\r\n    \"department\":\"IT\",\r\n    \"dirsupID\":\"\",\r\n    \"tuitionReimbursed\":\"0.00\",\r\n    \"tuitionPending\":\"0.00\",\r\n    \"position\":\"BEN_CO\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add employee6",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6\",\r\n    \"name\":\"salesbenco\",\r\n    \"department\":\"SALES\",\r\n    \"dirsupID\":\"\",\r\n    \"tuitionReimbursed\":\"0.00\",\r\n    \"tuitionPending\":\"0.00\",\r\n    \"position\":\"BEN_CO\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add employee7",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"7\",\r\n    \"name\":\"headsspecboy\",\r\n    \"department\":\"IT\",\r\n    \"dirsupID\":\"1\",\r\n    \"tuitionReimbursed\":\"0.00\",\r\n    \"tuitionPending\":\"0.00\",\r\n    \"position\":\"EMPLOYEE\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Demo",
+			"item": [
+				{
+					"name": "login as 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "2"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2course",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"courseType\":\"UNIVERSITY\",\r\n    \"year\":\"2021\",\"month\":\"06\",\"day\":\"23\",\r\n    \"time\":\"3p.m. est\",\r\n    \"description\":\"intro to php in this course well cover blah blah\",\r\n    \"justification\":\" I don't know php\",\r\n    \"special\":\" \",\r\n    \"cost\":\"400.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view 2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "2"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "4"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4courseFail",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"courseType\":\"CERT_PREP_CLASS\",\r\n    \"year\":\"2021\",\"month\":\"05\",\"day\":\"3\",\r\n    \"time\":\"3p.m. est\",\r\n    \"description\":\"cert prep for oracle cert\",\r\n    \"justification\":\" I should get that cert\",\r\n    \"special\":\"\",\r\n    \"cost\":\"100.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4course",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"courseType\":\"CERT_PREP_CLASS\",\r\n    \"year\":\"2021\",\"month\":\"06\",\"day\":\"3\",\r\n    \"time\":\"3p.m. est\",\r\n    \"description\":\"cert prep for oracle cert\",\r\n    \"justification\":\" I should get that cert\",\r\n    \"special\":\"\",\r\n    \"cost\":\"100.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "3"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view 3's responsibilities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "1"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view 1's responsibilities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "2"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2uploadFile",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "file",
+							"file": {
+								"src": "/C:/Users/Kevin/Downloads/flamingo.jpg"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements/byID/6/courseFlyer.jpg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements",
+								"byID",
+								"6",
+								"courseFlyer.jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "1"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view 1's responsibilities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1download2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reimbursements/byID/6/courseFlyer.jpg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements",
+								"byID",
+								"6",
+								"courseFlyer.jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1approve2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 6,\r\n        \"dateSub\": null,\r\n        \"course\": {\r\n            \"courseType\": \"UNIVERSITY\",\r\n            \r\n           \"year\":\"2021\",\r\n           \"month\":\"06\",\r\n           \"day\":\"23\",\r\n            \"time\": \"3p.m. est\",\r\n            \"description\": \"intro to php in this course well cover blah blah\",\r\n            \"justification\": \" I don't know php\",\r\n            \"special\": \" \",\r\n            \"cost\": 400.0\r\n        },\r\n        \"amount\": 108.45001,\r\n        \"reqID\": 2,\r\n        \"process\": {\r\n            \"2\": true,\r\n            \"3\": false,\r\n            \"1\": false,\r\n            \"5\": false\r\n        },\r\n        \"attachments\": [],\r\n        \"urgent\": true,\r\n        \"active\": true\r\n}\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "5"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "view 5's responsibilities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reimbursements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5approve2withbonus",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 6,\r\n        \"dateSub\": null,\r\n        \"course\": {\r\n            \"courseType\": \"UNIVERSITY\",\r\n            \r\n           \"year\":\"2021\",\r\n           \"month\":\"06\",\r\n           \"day\":\"23\",\r\n            \"time\": \"3p.m. est\",\r\n            \"description\": \"intro to php in this course well cover blah blah\",\r\n            \"justification\": \" I don't know php\",\r\n            \"special\": \" \",\r\n            \"cost\": 400.0\r\n        },\r\n        \"amount\": 200.00,\r\n        \"reqID\": 2,\r\n        \"process\": {\r\n            \"2\": true,\r\n            \"3\": false,\r\n            \"1\": false,\r\n            \"5\": false\r\n        },\r\n        \"attachments\": [],\r\n        \"urgent\": true,\r\n        \"active\": true\r\n}\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login as 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "2"
+						},
+						"url": {
+							"raw": "http://localhost:8080/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2approveItself",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 6,\r\n        \"dateSub\": null,\r\n        \"course\": {\r\n            \"courseType\": \"UNIVERSITY\",\r\n            \r\n           \"year\":\"2021\",\r\n           \"month\":\"06\",\r\n           \"day\":\"23\",\r\n            \"time\": \"3p.m. est\",\r\n            \"description\": \"intro to php in this course well cover blah blah\",\r\n            \"justification\": \" I don't know php\",\r\n            \"special\": \" \",\r\n            \"cost\": 400.0\r\n        },\r\n        \"amount\": 200.00,\r\n        \"reqID\": 2,\r\n        \"process\": {\r\n            \"2\": true,\r\n            \"3\": false,\r\n            \"1\": false,\r\n            \"5\": false\r\n        },\r\n        \"attachments\": [],\r\n        \"urgent\": true,\r\n        \"active\": true\r\n}\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/reimbursements/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "viewCompletedReimb",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/reimbursements/byID/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reimbursements",
+								"byID",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
